@@ -1,0 +1,178 @@
+<html>
+
+<head>
+	<title> A.Lewis Developing | Web App (Python) </title>
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+
+<body>
+
+	<header class="linkTab">
+	
+		<div class="logo">
+			<a href="index.html"><img src="logo2.jpeg"> </img></a>
+		</div>
+		
+		</br>
+	
+		<ul>
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="about.html"> About </a></li>
+			<li><a href="projects.html"> Projects</a></li>
+			<li><a href="contact.html"> Contact </a></li>
+		</ul>
+
+	</header>
+	
+		
+	<section class="mainDisplay"> 
+	
+	<article class="post">
+
+
+  <header class="post-header">
+      <h2 itemprop="headline" class="post-title">Web Design Program</h2>
+      <p class="post-subtitle" itemprop="alternativeHeadline">Python Code used to build websites</p>
+  </header>
+
+    <p itemprop="description" class="post-intro">From a basic school project to an app that can develop a real website</p>
+  
+  <div itemprop="articleBody" class="post-body">
+    <p>Back in college, during the python segment of my class, I decided to look ahead, and look into dealing with files in python. Since we were a little behind, the class never
+	made it to python files, so I had to figure that out on my own. It wasn't too complex to grasp the concept, since going about it was very similar to how
+	I dealt with files in C++ (without having to import any libraries, which made it easier, since we can just use files). Of course, you had to 
+	open the files, then close the files in order to not ruin the program. This does not mean that this was a simple project.</p>
+    
+   
+    <figure itemscope itemtype="http://schema.org/ImageObject">
+      <img class="artIMG" src="wd logo.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">A simple HTML/CSS page from the version I made in college.</figcaption>
+    </figure>
+    
+	 <p>In the version I made in the classroom, it was simple, since it was just basic. Pick some colors for the basic CSS, select if user wants a picture, write a header and an article, write those into an HTML file, and there's
+	 the website. But now, since i'm making something to create a real website, I had to really think about how I was going to make the program make a realistic website. I first needed a template to go off of, so that it is easier to 
+	 keep things in order.</p>
+	 
+	 
+	 <figure >
+      <img class="artIMG" src="bacsichtml.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">The HTML template I used for this.</figcaption>
+    </figure>
+	
+	<figure >
+      <img class="artIMG" src="basiccss.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">The CSS template I used. The user will be able to control more in a future update.</figcaption>
+    </figure>
+	
+	
+	
+	<h1> The Functions </h1> 
+	
+	<h2>getTitle</h2>
+	<p>This function is to prompt the ser to enter a title. On an earlier verion of this, this also served as the logo.</p>
+	<figure >
+      <img class="artIMG" src="wda1.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">The title function</figcaption>
+    </figure>
+	
+	<h2>openCSS</h2>
+	<p>This function is to open the CSS file and write the first couple of lines, so that we can go straight into the design aspect.</p>
+	<figure >
+      <img class="artIMG" src="wda2.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">Opening CSS.</figcaption>
+    </figure>
+	
+	<h2>makeTheme</h2>
+	<p>The overall color patterns for the body text and background is decided here.</p>
+	<figure >
+      <img class="artIMG" src="wda3.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">User picks a background color for the body.</figcaption>
+    </figure>
+	
+	<figure >
+      <img class="artIMG" src="wda4.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">User picks the text color for the body.</figcaption>
+    </figure>
+	
+	<h2>makeTool</h2>
+	<p>This function creates the basic HTML for the nav bar. It prompts the users to enter how many links they want, and after each iteration, the link name is sent to an array.</p>
+	<figure >
+      <img class="artIMG" src="wda5.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">Makes the links for the navigation bar.</figcaption>
+    </figure>
+	
+	<h2>writeTop</h2>
+	<p>This funtion is where the nav bar on top is designed. </p>
+	<figure >
+      <img class="artIMG" src="wda6.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">I start the function off by first setting up the dimensions of the container in css. After that, I prompt the user for a background color..</figcaption>
+    </figure>
+
+	<figure >
+      <img class="artIMG" src="wda7.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">Background for the header/navigation bar.</figcaption>
+    </figure>
+	
+
+	<figure >
+      <img class="artIMG" src="wda8.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">Colors of the links themselves. </figcaption>
+    </figure>
+
+	<figure >
+      <img class="artIMG" src="wda9.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">The CSS template I used. The user will be able to choose more in a future update.</figcaption>
+    </figure>
+	
+	<h2>getEntry</h2>
+	<p>This is the function that creates the content for the page.</p>
+	<figure >
+      <img class="artIMG" src="wda10.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">I prompt the user into typeing the amount of entries for the article. Then I ask the user if they want a picture for the entry (and whether they want to type the name, or post a url).</figcaption>
+    </figure>
+
+	<figure >
+      <img class="artIMG" src="wda11.png" style="width:50%"></img>
+      
+      <figcaption itemprop="caption">The user selects if they want a header (and whether it is a link, or just a header). After that, the user writes the article.</figcaption>
+    </figure>
+	
+	<h2>closeHTML</h2>
+	<p>I wrote this, so that the last lines of the HTML are in before the files are closed. The CSS codes has already been concluded in a previous function. </p>
+	<figure >
+      <img class="artIMG" src="wda12.png" style="width:50%"></img>
+	  
+      <figcaption itemprop="caption">These write the final codes for the HTML/CSS files before they are closed.</figcaption>
+    </figure>
+	
+  </div>
+
+	<h1>Result</h1>
+		<img class="artIMG" src="wdApp.png" style="width:50%"></img>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+</article>
+	</section>
+
+	</body>
+
+</html>
