@@ -815,5 +815,41 @@ width: 90%;
 	
 }
 
+@media screen and (max-width: 500px) and (min-width: 322px){
+	.notIndex nav ul li a{
+		padding: 1%;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		font-family: Brushstroke, fantasy;
+		text-shadow: 2px 2px #yellow;
+		margin-right: 2%;
+	}
+	
+	
+}
+
+@media screen and (max-width: 321px){
+	.notIndex nav ul li a{
+		padding: 1%;
+		font-size: 12px;
+		font-weight: bold;
+		color: white;
+		font-family: Brushstroke, fantasy;
+		text-shadow: 2px 2px #yellow;
+		margin-right: 1%;
+	}
+	
+}
+
+@media screen and (max-width: 500px) and (min-width: 319px){
+	
+	.about section p {
+	width: 80%;
+	
+}
+	
+}
+
 
 
