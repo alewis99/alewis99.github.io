@@ -609,8 +609,6 @@ margin-left: 0%;
 }
 
 
-  #columns figure { width: 100%;}
-}
 
 
 @media screen and (max-width: 300px){
@@ -683,9 +681,9 @@ margin-left: 0%;
 		background-color: rgba(0, 0, 0, 0.7);
 	}
 	
-	#wrap{
+	/*#wrap{
 
 	margin-top: -70%;
-}
+} */
 	
 }
