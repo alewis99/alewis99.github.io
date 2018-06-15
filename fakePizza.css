@@ -394,7 +394,7 @@ header{
 	}
 }
 
-@media (min-width: 431px) and (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
 	.logo a img{
 	width: 78px;
 	height: 78px;
@@ -402,15 +402,44 @@ header{
 }
 
 header {
-	height: 14%;
+	height: 11%;
 }
 
 .linkTab ul li a{
 
 	font-size: 22px;
 	padding: 1;
-	margin-left: 1%;
+	margin-left: -2%;
 	
+}
+
+}
+
+@media (min-width: 200px) and (max-width: 399px) {
+	.logo a img{
+	width: 78px;
+	height: 78px;
+	float: center;
+}
+
+header {
+	height: 13.9%;
+}
+
+.linkTab ul li a{
+
+	font-size: 19px;
+	padding: 1;
+	margin-left: -6%;
+	
+}
+
+.main-content{
+	margin-top: 5%;
+}
+
+.home-tiles{
+	margin-top: 5%;
 }
 
 }
