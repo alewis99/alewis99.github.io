@@ -42,8 +42,8 @@ body {
 header h1{
 	
 	color: blue;
-	
-	
+	font-family: 'Do Hyeon', sans-serif;
+	text-shadow: 0 0 3px white;
 }
 
 header nav ul li {
@@ -139,7 +139,13 @@ header nav ul li a:hover {
 	padding: 10px;
 }
 
+.hero h1 span{
+	font-family: 'Bevan', cursive;
+}
 
+.hero h1 {
+	font-family: 'Do Hyeon', sans-serif;
+}
 
 /*About me -----------------------------------------------------------------------------------*/
 .about {
