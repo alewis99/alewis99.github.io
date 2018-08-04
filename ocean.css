@@ -147,6 +147,10 @@ header nav ul li a:hover {
 	font-family: 'Do Hyeon', sans-serif;
 }
 
+.notIndex h1 {
+	font-family: 'Do Hyeon', sans-serif;
+}
+
 /*About me -----------------------------------------------------------------------------------*/
 .about {
 	background: url(https://upload.wikimedia.org/wikipedia/commons/c/cd/Small_boat_on_large_ocean_at_sunrise.jpg) no-repeat center;
