@@ -546,7 +546,7 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   .display-banner {
-    background-image: url(../images/deck-installation-banner-mobile.jpg);
+    background-image: url(../lsimages/brick-country-house.jpg);
   }
   .display-banner h1 {
     font-size: 35px;
