@@ -1,54 +1,166 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title> A.Lewis Developing | About </title>
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  
+  <!-- Meta Description -->
+  <meta content="" name="description">
+
+  <title>A. Lewis Dev | About Me</title>
+
+  <!-- CSS Stylesheets -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/navbar.css" rel="stylesheet" type="text/css">
+
+  <!--Font Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+  <!--FAVICON-->
+  <link href="images/desktop-computer-image.jpg" rel="icon">
+
 </head>
 
-<body>
-<header class="linkTab">
-	
-		<div class="logo">
-		<a href="index.html"><img src="logo2.jpeg"> </img></a>
-		</div>
-			
-			</br>
-			
-		<ul>
-			<li><a href="index.html"> Home </a></li>
-			<li><a href="about.html"> About </a></li>
-			<li><a href="projects.html"> Projects</a></li>
-			<li><a href="contact.html"> Contact </a></li>
-		</ul>
+<body style="background-color: #000126;">
 
-	</header>
-	
-	<section class="mainDisplay">
-	<h1>About Me</h1>
-	
-	<p> I am a photographer and student from Philadelphia, PA. I currently major Computer Information Sciences at Delaware Tech (est grad year: 2019). While I have always been into technology, I really got started right after high school when I began programming as part of my original Electrical Engineering major (C++). I fell in love with craft, and decided that this is what I
-	wanted to pursue </p>
-	
-	</section>
-	
-	<!-- ABOUT -->
-		<div id="about" class="section">
+  <div class="consultation"><br />
+    <a href=""><span class="gold">LET'S WORK</span></a>
+  </div>
+  
 
-		  <div class="section-container">
+  <div class="container-fluid" id="banner" align="center" style="background-color: black;">
 
-			<div class="skills">
-				<h1> Skills </h1>
-				<h4 style="color:white">HTML, CSS, Python, C++, Javascript, PHP, SQL, Adobe Systems (Photoshop, Lightroom, Premeire)</h4>
-				
-			</div>
-			<!-- end-skills -->
+        <a href="index.html">
+        <img  class="logo" src="logo.jpeg"></a>
 
-		  </div>
-		  <!-- end-about-container -->
+  </div><!--end banner-->
 
-		</div> 
-	
-	
+
+  <nav class="navbar navbar-default navbar-static-top" id="topnavbar" role="navigation">
+
+    <div class="navbar-header">
+
+      <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+
+          <span class="sr-only">Toggle navigation</span> 
+
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span>
+
+      </button>
+
+    </div><!--end navbar-header-->
+
+    <div class="collapse navbar-collapse" align="center" >
+
+      <ul class="nav navbar-nav">
+          
+          <li><a href="index.html">HOME</a></li>
+
+          <li><a href="about.html">ABOUT</a></li>
+
+          <li><a href="projects.html">BLOG</a></li>
+
+          <li><a href="contact.html">CONTACT</a></li>
+
+      </ul>
+
+    </div>
+
+
+  </nav><!--end navbar-->
+
+
+<div class="about-banner">
+  
+     <h2 align="center">ABOUT ME</h2>
+
+</div><!--end about-banner-->
+
+
+<div class="about-description center-block">
+
+  <div class="container">
+  
+    <div class="row">
+    
+      <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+
+		<p>I am a photographer and student from Philadelphia, PA. I currently major Computer Information Sciences at Delaware Tech. While I have always been into technology, I really got started right after high school when I began programming as part of my original Electrical Engineering major (C++). I fell in love with craft, and decided that this is what I wanted to pursue</p>
+
+		<h2 align="center">SKILLS</h2>
+		
+		<p>HTML, CSS, Python, C++, Javascript, PHP, SQL.</p>
+		
+      </div><!--end col-md-6-->
+  
+    </div><!--end row-->
+
+  </div><!--end container-->
+
+</div><!--about-description-->
+
+
+
+
+<div class="consultation-strip" align="center">
+
+    <p><a href="">LET'S WORK</a></p>
+
+  </div><!--end consultation-strip-->
+
+
+  <footer>
+
+    <div id="footer" align="center">
+
+        <a href="index.html">HOME</a>
+
+        <a href="about.html">ABOUT</a> 
+
+        <a href="projects.html">BLOG</a> 
+
+        <a href="contact.html">CONTACT</a> 
+
+    </div><!--end of footer-->
+
+           
+	<!--
+    <div class="footerlinks" align="center">
+      
+      <a href="" rel="nofollow">Privacy Policy</a> 
+
+      <a href="" rel="nofollow">Terms &amp; Conditions</a>
+
+      <p align="center" class="text-muted copyright">&copy; Your Website/Business 2017</p>
+
+    </div> -->
+
+  </footer><!--end Footer-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+  </script> 
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+   
+   <!--FIXED NAVBAR SCRIPT-->
+  <script src="js/bootstrap.min.js">
+  </script> 
+  
+  <script>
+  $('#topnavbar').affix({
+     offset: {
+         top: $('#banner').height()
+     }   
+  }); 
+  </script>
+
+
 </body>
 
 </html>
