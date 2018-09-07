@@ -1,26 +1,55 @@
 <html>
 
 	<head>
+		  <meta charset="utf-8">
+		  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+		  <meta content="width=device-width, initial-scale=1" name="viewport">
+		  
+		  <!-- Meta Description -->
+		  <meta content="" name="description">
+	
 		<title>Fashion: Home</title>
 		<link rel="stylesheet" type="text/css" href="fakeFashion.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="fashion-nav-foot.css" rel="stylesheet" type="text/css">
+		 <link href="fashion-css/bootstrap.min.css" rel="stylesheet">
 	</head>
 
-	<body>
-
+	<body >
+	<div class="container-fluid" id="banner" align="center">
+	<a href="index.html"><img src="introLogo.jpeg" style="width:300px;"></a>
+	</div>
 	
-		<header>
-			<a href="index.html"><img src="introLogo.jpeg"></a>
-			<nav>
-				<ul>
-					<li> <a href="fashionIndex.html">Home</a></li>
-					<li> <a href="store.html">Store</a></li>
-					<li> <a href="shops.html">Shops</a></li>
-				</ul>
-			</nav>
-		</header>
-		</br>
-		</br>
+	<nav class="navbar navbar-default navbar-static-top" id="topnavbar" role="navigation">
+
+    <div class="navbar-header">
+
+      <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+
+          <span class="sr-only">Toggle navigation</span> 
+
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span>
+
+      </button>
+
+    </div><!--end navbar-header-->
+
+    <div class="collapse navbar-collapse" align="center" >
+
+      <ul class="nav navbar-nav">
+          
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="store.html">Store</a></li>
+		  
+		  <li><a href="shops.html">Shops</a></li>
+
+      </ul>
+
+    </div>
+
+  </nav><!--end navbar-->
 		
 		<div class="storeTop">
 			<!--<img src="introLogo.jpeg"> -->
@@ -92,10 +121,10 @@
 		  <ul class="footer-list-top">
 			<li>
 			  <h4 class="footer-list-header">About Fashion </h4></li>
-			<li><a href='fashionIndex.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">WHO WE ARE</a></li>
+			<li><a href='index.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">WHO WE ARE</a></li>
 			<li><a href='store.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORES</a></li>
 			<li><a href='shops.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">LOCATIONS</a></li>
-			<li><a href='fashionIndex.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">ABOUT</a></li>
+			<li><a href='index.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">ABOUT</a></li>
 
 		  </ul>
 		  
@@ -103,19 +132,19 @@
 			<li>
 			  <h4 class="footer-list-header">About</h4></li>
 
-<li><a href='fashionIndex.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">WHO WE ARE</a></li>
+<li><a href='index.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">WHO WE ARE</a></li>
 			<li><a href='store.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORES</a></li>
 			<li><a href='shops.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">LOCATIONS</a></li>
-			<li><a href='fashionIndex.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">ABOUT</a></li>
+			<li><a href='index.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">ABOUT</a></li>
 		  </ul>
 		  
 		  <ul class="footer-list-top">
 			<li id='help'>
 			  <h4 class="footer-list-header">Resources</h4></li>
-			<li><a href='fashionIndex.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">WHO WE ARE</a></li>
+			<li><a href='index.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">WHO WE ARE</a></li>
 			<li><a href='store.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORES</a></li>
 			<li><a href='shops.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">LOCATIONS</a></li>
-			<li><a href='fashionIndex.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">ABOUT</a></li>
+			<li><a href='index.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">ABOUT</a></li>
 		  </ul>
 
 		<section class="footer-bottom-section flex-rw">
@@ -129,6 +158,23 @@
 			</div>
 	  </section>
 	</footer>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+  </script> 
+  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="fashion-js/bootstrap.min.js"></script> 
+
+  
+   <!--FIXED NAVBAR SCRIPT-->
+  <script>
+  $('#topnavbar').affix({
+     offset: {
+         top: $('#banner').height()
+     }   
+  }); 
+  </script>
 		
 	</body>
 
